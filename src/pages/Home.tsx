@@ -3,7 +3,7 @@ import GameRow from '../components/games/GameRow';
 import GameDetail from '../components/games/GameDetail';
 import type { FreeGame } from '../types/game';
 
-const ROWS = [
+const ROWS: { title: string; params: Record<string, string> }[] = [
   { title: 'All Games',     params: {} },
   { title: 'MMORPGs',       params: { category: 'mmorpg' } },
   { title: 'Shooters',      params: { category: 'shooter' } },

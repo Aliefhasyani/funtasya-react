@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import type { FreeGame } from '../../types/game';
 import { fetchGames } from '../../services/rawgApi';
-import GameCard from '../games/GameCard';
 import GameDetail from '../games/GameDetail';
 
 interface Props {
